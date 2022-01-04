@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+/* ---------------------------------------------------DEBUT HEADER --------------------------------------------------*/
+#logo{
+    position: absolute;
+    width: 405px;
+    height: 194px;
+    left: 0;
+    top: 137px;
+    background: url(./assets/alpes\ is\ here\ source\ \(1\).png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+}
+#header{
+    height: 563px;
+    background: url(./assets/isere\ header13.jpg) no-repeat;
+    background-size: cover; /* image tronquée */
+}
+nav{
+    margin: 0 auto;
+    width: 80%;
+    height: 62px;
+    background-color: #C4C4C4;
+    text-align: center;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;  
+}
+.menu > ul > li{
+    width: 20%;
+    float: left;
+    flex: 1 1 auto;
+    position: relative;
+}
+.menu ul li a{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    display: block;
+}
+.menu ul li a:hover{
+    width: 324px;
+    height: 62px;
+    display: block;
+    background-color: rgb(148, 148, 148)
+}
+/* ----------------------------------------------------FIN HEADER ----------------------------------------------------*/
+#container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.floatRight {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.floatLeft {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+/*  */
+
+
+
+
+
+/* #menleg{
+    text-decoration: none;
+} */
+
+/* DEBUT FONT */
+.dr{
+    margin: 100px 0;
+}
+.gc{
+    margin: 100px 0;
+    text-align: right;
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.spe{
+    margin: 50px 0;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.pti{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+#ptih2{
+    text-align: right;
+}
+
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 120px 0 50px 0;
+}
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 10px 0;
+}
+.p12{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 170px 0 50px 0;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+p{
+    text-align: justify;
+}
+.lieu4{
+    max-width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex: 1 1 auto;
+
+    
+}
+.quat{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+.quat :hover{
+    transform: scale(1.035);
+    cursor: pointer;
+}
+.quat p{
+    text-align: center;
+}
+/* ------------------------------------------------FOOTER------------------------------------------------- */
+footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    background-color: #C4C4C4;
+    display: flex;
+}
+.foot{
+    width: 25%;
+    padding: 30px 60px;
+    display: inline-block;
+    text-align: center;
+}
+.foot ul{
+    list-style-type: none;
+}
+.foot li{
+    padding: 10px 0;
+}
+.foot li:hover{
+    background-color: rgb(148, 148, 148);
+}
+.foot a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.foot p{
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(148, 148, 148);
+}
+button:hover{
+    transform: scale(1.035);
+    cursor: pointer;
+}
+/* #footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: flex-start;
+}
+.foot{
+    margin: 25%;
+    display: inline-block;
+    text-align: center;
+}
+#footer a{
+    color: black;
+    text-decoration: none;
+} */
+/* --------------------------------------------FIN FOOTER----------------------------------------------------------- */
+@media screen and (max-width : 800px) and (max-width : 1260px){
+    
+}
+/* --------------------------------------------FIN @ MEDIA---------------------------------------------------------- */
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+#logo{
+    position: absolute;
+    width: 405px;
+    height: 194px;
+    left: 0;
+    top: 137px;
+    background: url(./assets/alpes\ is\ here\ source\ \(1\).png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+}
+
+/* DEBUT HEADER */
+/* #header{
+    height: 563px;
+    background: url(./assets/isere\ header13.jpg) no-repeat;
+    background-size: cover; /* image tronquée */
+
+/* }
+nav{
+    margin: 0 auto;
+    width: 1296px;
+    height: 62px;
+    background-color: #C4C4C4;
+    text-align: center;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;  
+}
+.menu > ul > li{
+    width: 324px;
+    float: left;
+    flex-grow: 1;
+    position: relative;
+}
+.menu ul li a{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    display: block;
+}
+.menu ul li a:hover{
+    width: 324px;
+    height: 62px;
+    display: block;
+    background-color: rgb(148, 148, 148)
+}  */
+/* FIN HEADER */
+/* #container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.floatRight {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.floatLeft {
+    float: left;
+    margin: 0 20px 20px 0;
+} */
+
+
+
+/* DEBUT FONT */
+/* .dr{
+    margin: 100px 0;
+}
+.gc{
+    margin: 100px 0;
+    text-align: right;
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.pti{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+#ptih2{
+    text-align: right;
+}
+
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 120px 0 50px 0;
+}
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 10px 0;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+p{
+    text-align: justify;
+}
+.lieu4{
+    max-width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex: 1 1 auto;
+
+    
+}
+.quat{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+.quat :hover{
+    transform: scale(1.035);
+    cursor: pointer;
+}
+.quat p{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    background-color: #C4C4C4;
+    display: flex;
+}
+.foot{
+    width: 25%;
+    padding: 30px 60px;
+    display: inline-block;
+    text-align: center;
+}
+.foot ul{
+    list-style-type: none;
+}
+.foot li{
+    padding: 10px 0;
+}
+.foot li:hover{
+    background-color: rgb(148, 148, 148)
+}
+.foot a{
+    color: black;
+    text-decoration: none;
+}
+.foot p{
+    text-align: center;
+} */
